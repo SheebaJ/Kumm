@@ -1,0 +1,305 @@
+
+/*index*/
+    *{
+      margin: 0;
+      padding:0;
+      font-family: Century Gothic;
+    }
+    header
+    {
+      background-image:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url(7.jpg);
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+.navbar1 .navbar-nav{
+float: right;
+}
+.tag{
+  position: absolute;
+  top: 50%;
+  left:50%;
+    background: #e0e0e0;
+        overflow: hidden;
+        opacity: 0.7;
+  transform: translate(-50%,-50%);
+}
+.tag p{
+  text-align: center;
+  color:black;
+  font-size: 30px;
+}
+
+
+/*view profile */
+  
+      @import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+      body 
+      {
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(6.jpeg);
+        background-size: cover;
+      }
+
+      .navbar {
+        font-size: 18px;
+        /*background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);*/
+        /*background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 96%);*/
+        background: linear-gradient(90deg, rgba(77,77,77,1) 4%, rgba(179,50,34,0.846673703661152) 89%);
+
+background-color: #CEB438;
+/*background: linear-gradient(to right, #CE5937 0%, #FFEA22 50%, #FCFF00 100%);    */
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+        padding-bottom: 10px;
+      }
+
+      .main-nav {
+        list-style-type: none;
+        display: none;
+      }
+
+      .nav-links,
+      .logo { 
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7  );
+      }
+
+      .main-nav li {
+        text-align: center;
+        margin: 15px auto;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .logo {
+
+        display: inline-block;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+
+      .navbar-toggle {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 24px;
+      }
+
+      #chkToggle {
+        display: none;
+      }
+
+      #chkToggle:checked + ul.main-nav {
+        display: block;
+      }
+
+      @media screen and (min-width: 768px) {
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 0;
+          height: 70px;
+          align-items: center;
+        }
+
+        #chkToggle:checked + ul.main-nav {
+          display: flex;
+        }
+
+        .main-nav {
+          display: flex;
+          margin-right: 30px;
+          flex-direction: row;
+          justify-content: flex-end;
+        }
+
+        .main-nav li {
+          margin: 0;
+        }
+
+        .nav-links {
+          margin-left: 40px;
+        }
+
+        .logo {
+          margin-top: 0;
+        }
+
+        .navbar-toggle {
+          display: none;
+        }
+
+        .logo:hover,
+        .nav-links:hover {
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+      .main-wrap1
+      {
+/*        padding:3%;
+        max-width:1200px;
+        display:block;
+        margin: 10px auto;*/
+         margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 450px; /* 2 */
+background-color: #dcdcdc;
+  padding-right: 100px; /* 3 */
+  padding-left:  10px; /* 3 */
+      }
+.main-wrap
+      {
+        padding:3%;
+        max-width:1200px;
+        /*display:block;*/
+        margin: 10px auto;
+         margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  /*max-width: 450px; */
+      }
+      .table.table-striped {
+            
+        border-collapse: collapse;
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+        opacity: 0.9;
+                  }
+      .table.table-striped thead {
+        background: #fff;
+        box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+      }
+        .table.table-striped th {
+          padding: 0.9rem 0.5rem;
+          font-weight: bold;
+          border: 1px solid #efefef;
+          text-align: left;
+          border-top: 0px;
+        }
+
+        .table.table-striped tbody tr:nth-child(odd){
+          background-color: rgba(0,0,0,.02);
+        }
+
+        .table.table-striped tbody tr td a {
+          color: #3c2f17;
+          font-size: 15px;
+          text-decoration:none;
+          font-weight:500;
+        }
+
+        .table.table-striped tr:nth-child(even) {
+          background-color: #fff;
+        }
+
+        .table.table-striped tbody tr td {
+          border: 1px solid #efefef;
+          padding: 0.7rem;
+          text-align: left;
+          border-top: 0px;
+        }
+       /* .table.table-striped tbody tr td button
+        {
+          width: 115px;
+          height: 35px;
+        }
+        .table.table-striped tbody tr td button:hover
+        {
+          background-color: grey;
+        }
+
+/*add vacancy */
+  #vcbox
+  {
+  padding: 10px;
+    background: #f4f0ec;
+    overflow: hidden;
+    opacity: 0.9;
+    margin-left: 200px;
+  }
+
+    #edit
+    {
+      padding: 1px 1px;
+    }
+    table td
+    {
+      padding: 5px 30px;
+    }
+    input[type="text"]
+    {
+      height: 38px;
+      width: 360px;
+      background-color: transparent;
+      color: black;
+      border: none;
+      outline: none;
+      border-radius: 3px;
+      border-bottom: 1px solid black;
+      text-align: center;
+      font-size: 18px;
+    }
+    textarea
+    {
+      background-color: #000000b3;
+      color: white;
+      border: none;
+      outline: none;
+      text-align: center;
+      border-radius: 10px;
+      border-bottom: 1px solid white;
+      margin-bottom: 1px;
+      font-size: 18px;
+    }
+
+    #edit tr td select
+    {
+      color: white;
+      background-color: #000000b3;
+      height: 40px;
+      width: 360px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      border-radius: 10px;
+      outline: none;
+      text-align-last: center;
+      font-size: 18px;
+    }
+
+    input[type="button"]
+    {
+      cursor: pointer;
+      height: 39px;
+      background-color: #000000b3;
+      color: white;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 3px;
+      width: 150px;
+      margin-left: 39%;
+      margin-top: 10px;
+      font-size: 17px;
+    }
+ /*   #stream
+    {
+      margin-left: 25%;
+    }*/
+    #skills
+    {
+      margin-left: 12%;
+    }
+    #submit
+    {
+       
+    background: #0062cc;
+    color: #fff;
+    }
+
+
+ 
